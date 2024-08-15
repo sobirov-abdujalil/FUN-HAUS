@@ -53,8 +53,109 @@ a {
 	color: #051473;
 }
 
-/* Main section */
+.line {
+	display: inline-block;
+	width: 247px;
+	height: 2px;
+	background-color: #051473;
+	vertical-align: middle;
+}
+
+/* Header section styles*/
+
+.nav-items {
+	margin-top: 38px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.second_nav-link img{
+	margin-top: 28px;
+}
+
+/* Main section styles */
 .main-section_title {
 	display: block;
 	width: 912px;
+	margin-top: 198px;
+	margin-left: 177px;
+	margin-bottom: 293px;
+}
+
+.main-section_subtitle {
+	margin-left: 492px;
+	margin-bottom: 86px;
+}
+
+.main-section {
+	margin-bottom: 125px;
+}
+
+.passages {
+	width: 620px;
+	margin-left: 809px;
+}
+
+.passage_title {
+	margin-bottom: 34px;
+}
+
+.passage_description {
+	margin-bottom: 55px;
+}
+
+/* Section 1 styles */
+
+.section-1_title {
+	vertical-align: middle;
+}
+
+/* Section 2 styles */
+
+.section-2 {
+	margin-top: 44px;
+	background-color: #051473;
+	margin-bottom: 30px;
+}
+
+.section-2_line {
+	width: 456px;
+	background-color: #FAEB8C;
+}
+
+.section-2_title {
+	color: #FAEB8C;
+	vertical-align: middle;
+	margin-bottom: 36px;
+}
+
+.section-2_descriptions {
+	display: flex;
+	margin-left: 500px;
+}
+
+.section-2_description {
+	color: #FAEB8C;
+	font-size: 16px;
+	width: 434px;
+	margin-bottom: 16px;
+}
+
+/* Section 3 styles */
+
+.section-3_title {
+	vertical-align: middle;
+}
+
+.section-3_subtitle {
+	width: 851px;
+	margin-top: 126px;
+	margin-left: 179px;
+	margin-bottom: 40px;
+}
+
+.section-3_description {
+	width: 620px;
+	margin-left: 179px;
+	margin-bottom: 82px;
 }
